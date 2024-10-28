@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **Week 10 Pair Project🍐🍐: 24 Hour Global Clock**
 
-## Getting Started
+# Project Planning
 
-First, run the development server:
+![alt text](<public/Week 10 Initial  Trello Board.png>)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Help Links
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- https://www.npmjs.com/package/figlet
+- http://www.figlet.org/examples.html
+- https://www.npmjs.com/package/react-clock
+- https://stackoverflow.com/questions/10599148/how-do-i-get-the-current-time-only-in-javascript
+- https://stackoverflow.com/questions/4402934/javascript-time-and-date-getting-the-current-minute-hour-day-week-month-y
+- https://www.geeksforgeeks.org/how-to-design-digital-clock-using-javascript/
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString
+- https://www.shecodes.io/athena/1086-how-to-display-country-specific-time-zone-in-javascript#:~:text=The%20toLocaleString%20method%20in%20the,specify%20the%20specific%20time%20zone.&text=let%20date%20%3D%20new%20Date()%3B,en%2DUS%27%2C%20options)%3B
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Reflection
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## What bugs did We encounter? 🪲
