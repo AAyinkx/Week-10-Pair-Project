@@ -20,8 +20,6 @@ export default function FigletConsole() {
 
   return (
     <>
-      <h1> HELLO!</h1>
-
       <p>{FigletTest()}</p>
     </>
   );

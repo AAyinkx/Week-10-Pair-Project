@@ -1,8 +1,8 @@
 "use client";
 
-import { useAsciiText, basic } from "react-ascii-text";
+import { useAsciiText, doh } from "react-ascii-text";
 
-export default function FigletAnimation() {
+export default function Header() {
   //Use ASCII text
   const asciiText = useAsciiText({
     animationCharacters: "❤",
@@ -10,10 +10,11 @@ export default function FigletAnimation() {
     animationDelay: 2000,
     animationDirection: "down",
     animationInterval: 100,
-    animationLoop: true,
     animationSpeed: 30,
-    font: basic,
-    text: ["10", "9", "8", "7", "6", "5", "4", "3", "2", "1", "0"],
+    fadeInOnly: true,
+    animationLoop: false,
+    font: doh,
+    text: ["ASCII ART "],
   });
 
   return (
