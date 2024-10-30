@@ -4,7 +4,7 @@ import { useAsciiText, doh } from "react-ascii-text";
 
 export default function Header() {
   //Use ASCII text
-  const asciiText = useAsciiText({
+  const header = useAsciiText({
     animationCharacters: "❤",
     animationCharacterSpacing: 1,
     animationDelay: 2000,
@@ -14,22 +14,22 @@ export default function Header() {
     fadeInOnly: true,
     animationLoop: false,
     font: doh,
-    text: ["ASCII ART "],
+    text: ["ASCII ART"],
   });
 
   return (
     <div className="flex justify-center items-center h-screen bg-gradient-to-br from-gray-800 to-black">
       <pre
-        ref={asciiText}
+        ref={header}
         className="
-          p-8 text-4xl text-pink-300 font-bold
+          p-4 text-lg text-pink-300 font-bold
           border-2 border-double border-transparent
           rounded-lg shadow-lg 
           bg-clip-border
           bg-gradient-to-r from-purple-500 via-pink-500 to-red-500
           animate-gradient-x
           transition transform hover:scale-105 duration-300 ease-in-out
-          overflow-scroll
+          overflow-scroll m-2
         "
       ></pre>
     </div>
