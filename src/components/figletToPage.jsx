@@ -1,18 +1,23 @@
 "use client";
 
-import { useAsciiText, alphabet } from "react-ascii-text";
+import { useAsciiText, nvScript } from "react-ascii-text";
 
 export default function FigletToPage() {
   //Use ASCII text
   const asciiTextRef = useAsciiText({
-    font: alphabet,
+    animationCharacters: "★",
+    animationCharacterSpacing: 8,
+    animationDelay: 3000,
+    animationDirection: "right",
+    animationInterval: 500,
+    animationSpeed: 70,
+    animationLoop: true,
+    font: nvScript,
     text: " H e l l o ",
-    isAnimated: false,
   });
 
   return (
     <>
-      <p>This a Test</p>
       <pre ref={asciiTextRef}></pre>
     </>
   );
