@@ -13,12 +13,12 @@ export default function FigletToPage() {
     animationSpeed: 70,
     animationLoop: true,
     font: nvScript,
-    text: " H e l l o ",
+    text: "H e l l o",
   });
 
   return (
     <>
-      <pre ref={asciiTextRef}></pre>
+      <pre className="mt-12" ref={asciiTextRef}></pre>
     </>
   );
 }
