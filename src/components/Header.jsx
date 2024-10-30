@@ -14,12 +14,15 @@ export default function Header() {
     fadeInOnly: true,
     animationLoop: false,
     font: doh,
-    text: ["ASCII ART "],
+    text: [" ASCII ART "],
   });
 
   return (
-    <>
-      <pre ref={asciiText}></pre>
-    </>
+    <div>
+      <pre
+        ref={asciiText}
+        className="border border-solid border-x-8 border-y-8 border-t-purple-950 border-b-purple-950 border-l-pink-800 border-r-pink-800 text-purple-300 overflow-scroll"
+      ></pre>
+    </div>
   );
 }

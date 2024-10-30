@@ -5,10 +5,10 @@ import { useAsciiText, nvScript } from "react-ascii-text";
 export default function FigletToPage() {
   //Use ASCII text
   const asciiTextRef = useAsciiText({
-    animationCharacters: "★",
+    animationCharacters: "✐ ✎ ✐ ✎ ✐ ✎",
     animationCharacterSpacing: 8,
     animationDelay: 3000,
-    animationDirection: "right",
+    animationDirection: "left",
     animationInterval: 500,
     animationSpeed: 70,
     animationLoop: true,
