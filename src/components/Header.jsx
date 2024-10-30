@@ -14,14 +14,23 @@ export default function Header() {
     fadeInOnly: true,
     animationLoop: false,
     font: doh,
-    text: [" ASCII ART "],
+    text: ["ASCII ART "],
   });
 
   return (
-    <div>
+    <div className="flex justify-center items-center h-screen bg-gradient-to-br from-gray-800 to-black">
       <pre
         ref={asciiText}
-        className="border border-solid border-x-8 border-y-8 border-t-purple-950 border-b-purple-950 border-l-pink-800 border-r-pink-800 text-purple-300 overflow-scroll"
+        className="
+          p-8 text-4xl text-pink-300 font-bold
+          border-2 border-double border-transparent
+          rounded-lg shadow-lg 
+          bg-clip-border
+          bg-gradient-to-r from-purple-500 via-pink-500 to-red-500
+          animate-gradient-x
+          transition transform hover:scale-105 duration-300 ease-in-out
+          overflow-scroll
+        "
       ></pre>
     </div>
   );
