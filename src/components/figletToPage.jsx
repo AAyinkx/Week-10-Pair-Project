@@ -18,7 +18,12 @@ export default function FigletToPage() {
 
   return (
     <>
-      <pre className="mt-12" ref={asciiTextRef}></pre>
+      <pre
+        className="mt-12 font-bold 
+          bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 
+          bg-clip-text text-transparent"
+        ref={asciiTextRef}
+      ></pre>
     </>
   );
 }
