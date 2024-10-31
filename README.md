@@ -15,6 +15,7 @@
 - https://www.html.am/tags/html-pre-tag.cfm#:~:text=The%20element%20can%20be,tact%2C%20and%20without%20word%20wrap.
 - https://www.npmjs.com/package/react-ascii-text
 - https://devhints.io/figlet (updated fonts)
+- https://blog.logrocket.com/guide-adding-gradients-tailwind-css/ (cool tailwind styling)
 
 ## Issues we came accross with the ASCII Package
 
@@ -42,4 +43,3 @@
 
 - It was nice working at a much slower pace than our usual assignments. This allowed us to explore and revisit previous topics such as using git(Git pull, git branch, merging and conflicts)
 - Experimenting with a different package and something we're not used to was pretty fun!!
--
