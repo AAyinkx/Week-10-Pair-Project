@@ -5,7 +5,7 @@
 - OUR TRELLO BOARD LINK:
   https://trello.com/b/jnpzzy9E/week-10
 
-![alt text](<public/Week 10 Initial  Trello Board.png>)
+![alt text](<public/Week 10 Final Trello Board.png>)
 
 ## Help Links
 
