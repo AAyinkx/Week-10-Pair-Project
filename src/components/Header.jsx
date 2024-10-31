@@ -14,7 +14,7 @@ export default function Header() {
     fadeInOnly: true,
     animationLoop: false,
     font: doh,
-    text: ["ASCII ART"],
+    text: "ASCII ART",
   });
 
   return (
@@ -22,7 +22,7 @@ export default function Header() {
       <pre
         ref={header}
         className="
-          p-4 text-lg text-pink-300 font-bold
+          p-4 text-sm text-pink-300 font-bold
           border-2 border-double border-transparent
           rounded-lg shadow-lg 
           bg-clip-border

@@ -7,7 +7,7 @@ export default function FigletToPage() {
   const asciiTextRef = useAsciiText({
     animationCharacters: "✐ ✎ ✐ ✎ ✐ ✎",
     animationCharacterSpacing: 8,
-    animationDelay: 3000,
+    animationDelay: 2000,
     animationDirection: "left",
     animationInterval: 500,
     animationSpeed: 70,
@@ -19,7 +19,7 @@ export default function FigletToPage() {
   return (
     <>
       <pre
-        className="mt-12 font-bold 
+        className="mt-12 mb-12 font-bold 
           bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 
           bg-clip-text text-transparent"
         ref={asciiTextRef}
